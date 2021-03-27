@@ -13,8 +13,8 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Nitrogen Settings -->
-    <string name="nitrogen_settings_dash_title">Personalization</string>
-    <string name="nitrogen_settings_summary">Additional settings</string>
+    <string name="nitrogen_settings_dash_title">Personalizations</string>
+    <string name="nitrogen_settings_summary">Customize your device additional settings</string>
 
     <!-- Changelog -->
     <string name="changelog_title">Changelog</string>

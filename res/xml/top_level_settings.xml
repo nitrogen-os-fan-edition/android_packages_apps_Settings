@@ -45,6 +45,14 @@
         android:icon="@drawable/ic_homepage_apps"
         android:order="-100"
         android:fragment="com.android.settings.applications.AppAndNotificationDashboardFragment"/>
+    
+    <Preference
+        android:key="top_level_nitrogen_settings"
+        android:title="@string/nitrogen_settings_dash_title"
+        android:summary="@string/nitrogen_settings_summary"
+        android:icon="@drawable/ic_homepage_nitrogen"
+        android:order="-95"
+        android:fragment="com.nitrogen.settings.NitrogenSettings"/>
 
     <Preference
         android:key="top_level_battery"
@@ -125,13 +133,7 @@
         android:fragment="com.android.settings.accessibility.AccessibilitySettings"
         settings:controller="com.android.settings.accessibility.TopLevelAccessibilityPreferenceController"/>
 
-    <Preference
-        android:key="top_level_nitrogen_settings"
-        android:title="@string/nitrogen_settings_dash_title"
-        android:summary="@string/nitrogen_settings_summary"
-        android:icon="@drawable/ic_homepage_nitrogen"
-        android:order="9"
-        android:fragment="com.nitrogen.settings.NitrogenSettings"/>
+
 
     <Preference
         android:key="top_level_system"
